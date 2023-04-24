@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form練習</title>
+      </head>
+      <body>
+
+        <!--テキストボックスと送信ボタンの設置-->
+        <form method="POST">
+          <input type="text" name="id" placeholder="userID"> <!--type="text"は入力されたテキストをそのまま表示-->
+          　
+          <input type="password" name="pwd" placeholder="Password"> <!--type="password"は入力されたテキストをかくして表示＆＆アイマークをクリックで可視化-->
+          <br>
+          マグロ
+          
+          <input type="number" name="maguro" list="neta" plaseholder="マグロ">
+          <datalist id="neta">
+            <option value="1"></option>
+            <option value="2"></option>
+          </datalist>  
+         
+         <!-- <input type="number" name="maguro" value="0" /> -->
+         
+          <br>
+          ウニ：
+          <input type="radio" name="uni" value="0" /> 0
+          <input type="radio" name="uni" value="1" /> 1
+          <input type="radio" name="uni" value="2" /> 2
+          
+          <br>
+          <input type="submit" value="送信">
+        </form>
+
+        <!--ここまで-->
+
+        
+      </body>
+</html>
